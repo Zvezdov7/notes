@@ -1,0 +1,22 @@
+POSITIONING ELEMENTS
+
+.smth{
+	position: static;
+	position: relative;
+	position: absolute; /* nearest positioned parent */
+	position: fixed; /* viewport */
+	position: inherit;
+
+
+	z-index: 1; /* -1 - under the layout */
+
+	clip: auto;
+	clip: inherit;
+	clip: rect(10px,10px,10px,10px); /* crop the blocj */
+
+	overflow: visible; /* default */
+	overflow: hidden; /* hide all outstanding content */
+	overflow: scroll; /* gives the scrollbar */
+	overflow: auto; /* same as scroll, but hides scrollbar if we don't need it */
+	overflow: inherit;
+}

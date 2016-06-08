@@ -1,0 +1,83 @@
+Git commands
+
+Work environment > commit --> Staging 
+
+
+cd -> directory
+git init
+
+git add index.html
+git add . //to add all files in curent dir
+
+git status // to show files ready to commit
+
+git commit -m "some words" // -m means message
+
+git log // log info
+
+git checkout index.html // reverse all changes, that were not commited
+
+git reset HEAD index.html // to unstage commited files
+
+git rm index.html // deleting file and push this delete to stage
+
+git add --all //adding all to staging (deleteng elements too)
+
+
+git checkout <commitID> //load to work env files from commit
+
+
+git branch // identify the current branch
+
+git branch <new-commit-name> <commit-id> // adding new branch
+
+git branch <new-commit-name> //using current state to create a branch
+
+git checkout master // switch to masterbranch
+
+git checkout <branch-name> //  switching between branches 
+
+git merge <branch-name> // get changes from the other branch to the current branch
+
+git branch -m app01 app1 // -m means move, so we just change the name
+
+git branch -D alternate // Delete the branch with name 'alternate'
+
+
+daring fireball markdown (for GitGub)
+
+
+git clone http://www.smth.com/somth.git
+
+git checkout 02_01 origin/02_01 //gettin needed branch
+
+// get all branches Git
+mkdir newdir
+cd newdir
+git clone --mirror https://www.usr/smth.git .git
+git config --bool core.bare false
+git reset --hard
+
+
+// get a branch from git
+git clonee -b branchname url
+
+rm -dfr .git // removing git init repo
+git init
+git add .
+git commit -m "smt"
+
+git status
+git log
+gitk
+gitx
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+Floating elements
+
+.smth {
+	float: left;
+	float: right;
+	float: inherit;
+	float: none;
+
+	clear: left;
+	clear: right;
+	clear: both;
+	clear: inherit;
+	clear: none;
+}
+
+/* Three elements floating left */
+
+Clearing Floats
+
+
+.element1 {
+	float: right;
+	width: 50px;
+	height: 200px;
+}
+
+.element2 {
+	float: left;
+	width: 50px;
+	height: 250px;
+}
+.element3 {
+	clear: both;
+}
+
+p {
+	/* Чтобы не на**нулся родительский элемент
+	prevent container collapsing */
+	clear: both; 
+}
+
+section {
+	/* альтернатива */
+	overflow: hidden;
+}
+
+/* one more alternative */
+
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+/*
+tjkdesign.com/articles
+nicolasgallagher.com
+ */
+
+FLEATING INLINE ELEMENTS
+
+/* Инлайновый текст на заплывает на флоат элемент */
+
+.dropcap p:first-of-type:first-letter {
+	float: left;
+	font-family: Georgia, Times, serif;
+	font-size:  4em;
+	margin: 0 5px 0 0;
+	line-height: .7; 
+}
+
+
+/* some more code */
+.more {
+	float: left;
+	margin: 0;
+	margin-left: 14em;
+	line-height: 1.6em;
+	padding: 0 5px;
+	background: #3b2f24;
+	color: white;
+}
+.price {
+	float: right;
+	margin: 0;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: -.3em;
+}
+
+/*
+3 methods of 2 divs floating
+1 - float:left; + marging: smths;
+2 - float:left; + float:left;
+3 - float:right; + float: right;
+*/
+/*
+3 methods of 3 divs floating
+1 - float:left; + loat:left; + loat:left(right);
+2 - float:left; + margin 0 auto; + float:right;
+3 - <article><col1></col1><col2></col2></article><aside><col3></col3></aside>
+*/
+
+HEIGHT
+
+/*
+html + body + section + ... min-height: 100%;
+*/
+
+/*
+www.cssbeauty.
+www.patterntap.com
+www.bestcssvault.com
+www.colorzilla.com color gradients
+*/
+
+EQUAL HEIGHT COLUMNS CREATING
+
+/* first method */
+section, aside {
+	padding-bottom: 1000em;
+	margin-bottom: -1000em;
+}
+article{ /* wrapper */
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+

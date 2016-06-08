@@ -1,0 +1,142 @@
+CSS Advanced 27 мая 2016 года
+
+// наложение со скроллом
+Margin and Padding properties
+
+.outer{
+	width: 600px;
+	height: 800px;
+	margin: 0 auto;
+	background: #9CF;
+	overflow: auto;
+}
+.box{
+	background: #B7D19C;
+	width: 500px;
+	padding: 98px;
+	border: 2px solid black;
+}
+
+// em == font-size
+
+Normal Document Flow - Css basics
+
+Display properties:
+
+.something{
+	display: inline; /* Элементы идут по очереди 
+	одной строкой пока строка не закончится 
+	удобно для создания менюшек */
+	display: block; /* Элементы отображаются отдельно,
+	каждый с новой строки Box model */
+	display: inline-block; /* Смесь inline и block свойств, 
+	чистичное наследование свойств Box model */
+	display: table;
+	display: inline-table;
+	display: table-row-group;
+	display: table-header-group;
+	display: table-footer-group;
+	display: table-row;
+	display: table-column-group;
+	display: table-column;
+	display: table-cell;
+	display: table-caption;
+	display: none;
+	display: inherit; /* parental display properties */
+
+}
+
+CSS RESET
+
+html, body, div, h1, h2, h3, p, ul, li {
+	margin 0;
+	padding: 0;
+
+
+}
+/*
+
+YUI 3 CSS Reset
+Max design's CSS Reset
+Eric Meyer's CSS Reset
+HTML5 Reset
+HTML5 Boilerplate
+Cssreset.com
+*/
+
+ 
+LAYOUTS
+
+Fixed
+Fluid
+Responsive
+
+CSS DEBUGGING TOOLS
+
+Firefox -> Firebug
+Chrome -> Webinspector
+
+
+Webdev project
+/*
+information architecture - 9%
+content planning - 22%
+wireframing/prototype - 35%
+coding - 22%
+testing - 13%
+*/
+
+
+DESIGN TOOLS
+
+/* 
+Typetester.org
+kuler.adobe.com
+Illustrator|Photoshop
+*/
+
+
+STRUCTURE
+
+/*
+Header
+Nav
+Banner
+Article (Main Content) (<article>)
+Sidebar (<aside>)
+Footer
+*/
+
+IMAGE ASSETS
+
+ /*
+Элементы - для работы с CSS
+Селекторы - для работы с контентом
+
+naming conventions
+ */
+
+/* 
+www.w3.org
+www.whatwg.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

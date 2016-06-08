@@ -1,0 +1,28 @@
+NAMING
+var score;
+var highScore;
+var everHigherScore;
+
+function calculateDistance() {}
+
+OBJECTS
+
+var myDate = new Date();
+
+BRACE
+
+if (x) {
+	
+} 
+else {
+	
+}
+
+Define your functions before you call them
+
+Minificate your code
+JSMin, YUI Compressor, Google Closure Compiler
+
+
+Code Check
+JSLint

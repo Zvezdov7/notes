@@ -1,0 +1,120 @@
+RESPONSIVE LAYOUTS
+MEDIA QUERIES
+
+ link = rel="stylesheet" href="desktop.css"
+media="[not | only] screen [and] (expression)"
+
+/*
+
+expression:
+width
+height
+device-width
+device-height
+orientation
+aspect-ratio
+device-aspect-ration
+color
+color-index
+monochrome
+resolution
+scran
+grif
+
+min-
+max-(width etc.)
+
+*/
+
+
+@media only screen and (min-width: 600px) and (max-width: 920px) {
+	body{
+		width: 90%;
+	}
+	
+}
+
+@media only screen and (max-width: 599px){
+	body{
+		width: 320px;
+	}
+	pre{
+		font-size: .8em;
+		padding: .5em;
+	}
+}
+
+ORGANIZING MEDIA QUERIES
+
+
+@media only screen and(max-width: 480px) { /* Iphone screensize */
+	body{
+		width: 320px;
+	}
+
+	pre{
+		font-size: .8em;
+		padding: .5em;
+		border-bottom: 2px solid #777;
+		line-height: 1.6;
+		font-weight: bold;
+	}
+}
+@media only screen and(min-width: 481px) and(max-width: 768px) { /* Tablets screensize */
+	body{
+		width: 80%;
+	}
+
+	pre{
+		font-size: 1em;
+		padding: .5em;
+		border-bottom: 2px solid #777;
+		line-height: 1.6;
+	}
+	
+}
+@media only screen and(mix-width: 769px) { /* Desctop screensize */
+	body{
+		width: 700px;
+	}
+
+	pre{
+		font-size: 1.2em;
+		padding: 1em .5em;
+		border-bottom: 2px solid #777;
+		line-height: 1.6;
+	}
+}
+
+/* Полезно для тестовой страницы видео Making Content Responsive */
+
+MOBILE DESIGN CONSIDERATIONS
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ADDITIONAL RESOURCES
+/* CSS Current work page
+www.w3.org/Style/CSS
+developer.yahoo.com/yui/grids/
+mediaqueri.es
+understanding the elements of responsive web design (article)
+modernizr.com
+respond.js (git)
+jeremypalford.com responsive web design sketch sheets
+responsive-images (git)
+Lynda.com
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
