@@ -135,9 +135,18 @@ Add Email VARCHAR(100);
 DROP TABLE Employee;
 
 
+DISTRIBUTE TABLE <table_name> HORUZONTALLY INTO
+<name> WHERE <predicate> IN SEGMENT <segment_name_site>
+...
+...
+<name> WHERE <predicate> IN SEGMENT <segment_name_site>
 
 
-
+DISTRIBUTE TABLE <table_name> VERTICALLY INTO
+<name> WHERE <colimn_name_list> IN SEGMENT <segment_name_site>
+...
+...
+<name> WHERE <colimn_name_list> IN SEGMENT <segment_name_site>
 
 
 
